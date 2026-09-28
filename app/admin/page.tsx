@@ -4,8 +4,8 @@ import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 
 type Product = { id:string; name:string; notes:string; description:string; price:string; image:string; featured?:boolean };
 const defaults: Product[] = [
-  { id:"creme-brulee", name:"Crème Brûlée", notes:"Vanille • Caramel • Sucre roux", description:"Une gourmandise chaude et enveloppante.", price:"40 €", image:"/products/photos/creme-real.svg", featured:true },
-  { id:"flame-berry", name:"Flame Berry", notes:"Framboise • Miel • Crème fouettée", description:"Un accord fruité, doux et lumineux.", price:"40 €", image:"/products/photos/flame-real.svg", featured:true },
+  { id:"creme-brulee", name:"Crème Brûlée", notes:"Vanille • Caramel • Sucre roux", description:"Une gourmandise chaude et enveloppante.", price:"40 €", image:"/products/photos/creme-brulee.jpg", featured:true },
+  { id:"flame-berry", name:"Flame Berry", notes:"Framboise • Miel • Crème fouettée", description:"Un accord fruité, doux et lumineux.", price:"40 €", image:"/products/photos/flame-berry.jpg", featured:true },
   { id:"nectar", name:"Nectar", notes:"Fraise • Framboise • Poire", description:"Un nectar fruité et juteux.", price:"40 €", image:"/products/photos/nectar-real.svg" },
   { id:"eclat-vanille", name:"Éclat de Vanille", notes:"Vanille • Ambre • Fleurs exotiques", description:"Une vanille solaire sur un fond ambré.", price:"40 €", image:"/products/photos/eclat-real.svg" }
 ];
