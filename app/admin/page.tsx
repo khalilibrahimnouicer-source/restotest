@@ -19,6 +19,7 @@ export default function Admin() {
 
   useEffect(() => {
     setProducts(JSON.parse(localStorage.getItem("mhl-products") || JSON.stringify(defaults)));
+    fetch("/api/admin/session").then(r => { if (r.ok) setLogged(true); });
   }, []);
 
   const persist = (next: Product[]) => { setProducts(next); localStorage.setItem("mhl-products", JSON.stringify(next)); };
