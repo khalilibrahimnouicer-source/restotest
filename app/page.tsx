@@ -15,8 +15,8 @@ type Product = {
 const defaults: Product[] = [
   { id:"creme-brulee", name:"Crème Brûlée", notes:"Vanille • Caramel • Sucre roux", description:"Une gourmandise chaude et enveloppante, pensée comme un dessert ambré.", price:"40 €", image:"/products/photos/creme-brulee.jpg", featured:true },
   { id:"flame-berry", name:"Flame Berry", notes:"Framboise • Miel • Crème fouettée", description:"Un accord fruité, doux et lumineux, relevé par une texture crémeuse.", price:"40 €", image:"/products/photos/flame-berry.jpg", featured:true },
-  { id:"nectar", name:"Nectar", notes:"Fraise • Framboise • Poire", description:"Un nectar fruité et juteux, frais dès les premières notes.", price:"40 €", image:"/products/photos/nectar-real.svg" },
-  { id:"eclat-vanille", name:"Éclat de Vanille", notes:"Vanille • Ambre • Fleurs exotiques", description:"Une vanille solaire, travaillée autour d'un fond ambré élégant.", price:"40 €", image:"/products/photos/eclat-real.svg" }
+  { id:"nectar", name:"Nectar", notes:"Fraise • Framboise • Poire", description:"Un nectar fruité et juteux, frais dès les premières notes.", price:"40 €", image:"/products/photos/nectar.jpg" },
+  { id:"eclat-vanille", name:"Éclat de Vanille", notes:"Vanille • Ambre • Fleurs exotiques", description:"Une vanille solaire, travaillée autour d'un fond ambré élégant.", price:"40 €", image:"/products/photos/eclat-de-vanille.jpg" }
 ];
 
 function getProducts(): Product[] {
